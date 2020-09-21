@@ -1,0 +1,113 @@
+body{
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+h1{
+  color: #8d93ab;
+  font-family: 'Amatic SC', cursive;
+  font-size: 5rem;
+  margin: 50px auto 0 auto;
+}
+h2{
+  color: #8d93ab;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin: 0 auto;
+}
+h3{
+  color: #8d93ab;
+  font-family: 'Open Sans', sans-serif;
+}
+hr{
+  border: dotted #d6e0f0 6px;
+  border-bottom: 0;
+  width: 7.5%;
+}
+a{
+  color: #d6e0f0;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+}
+a:hover{
+  color: #f1f3f8;
+}
+p{
+  line-height: 2;
+}
+.top-container{
+  background-color: #d6e0f0;
+  position: relative;
+  padding-top: 50px;
+}
+.middle-container{
+  color: #393b44;
+  padding: 50px 0;
+}
+.bottom-container{
+  background-color: #8d93ab;
+  color: #f1f3f8;
+  padding: 50px 0;
+}
+.bottom-cloud{
+  position: absolute;
+  top: 200px;
+  left: 300px;
+}
+.top-cloud{
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+.skill-row{
+  line-height: 2;
+  margin: 50px auto;
+  text-align: left;
+  width: 50%;
+}
+.circuit-img{
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+.cooking-img{
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+.skills{
+  margin-top: 50px;
+}
+.contact-me{
+  margin-top: 50px;
+}
+.contact-me-button {
+	background:linear-gradient(to bottom, #d6e0f0 5%, #8d93ab 100%);
+	background-color:#f1f3f8;
+	border-radius:15px;
+	border:1px solid #f1f3f8;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Open Sans', sans-serif;;
+	font-size:17px;
+  font-weight: bold;
+	padding:16px 31px;
+	text-decoration: none;
+}
+.contact-me-button:hover {
+	background:linear-gradient(to bottom, #8d93ab 5%, #f1f3f8 100%);
+	background-color:#8d93ab;
+}
+.contact-me-button:active {
+	position:relative;
+	top:1px;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.copyright{
+  font-size: 0.75rem;
+}
